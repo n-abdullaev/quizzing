@@ -1,0 +1,157 @@
+{
+    "id": "kg-history-01",
+    "title": "History and Culture of Kyrgyzstan",
+    "questions": [
+      {
+        "id": 1,
+        "question": "When did Kyrgyzstan declare its independence?",
+        "options": ["1989", "1991", "1993", "1995"],
+        "answerIndex": 1,
+        "explanation": "Independence was declared in 1991 after the USSR collapsed."
+      },
+      {
+        "id": 2,
+        "question": "What is the capital of Kyrgyzstan?",
+        "options": ["Almaty", "Osh", "Karakol", "Bishkek"],
+        "answerIndex": 3,
+        "explanation": "The capital is Bishkek (formerly called Frunze in Soviet times)."
+      },
+      {
+        "id": 3,
+        "question": "Which large mountain range covers much of Kyrgyzstan?",
+        "options": ["Himalayas", "Alps", "Tien Shan", "Andes"],
+        "answerIndex": 2,
+        "explanation": "Most of the country is mountainous, part of the Tien Shan."
+      },
+      {
+        "id": 4,
+        "question": "Which famous lake in Kyrgyzstan is known for not freezing completely in winter?",
+        "options": ["Son-Kul", "Issyk-Kul", "Balkhash", "Aral"],
+        "answerIndex": 1,
+        "explanation": "Issyk-Kul is slightly salty and deep; it rarely freezes."
+      },
+      {
+        "id": 5,
+        "question": "The flag’s 40 rays around the sun symbolize…",
+        "options": ["40 regions", "40 tribes", "40 mountains", "40 rivers"],
+        "answerIndex": 1,
+        "explanation": "The 40 rays represent the legendary 40 tribes unified in Kyrgyz history."
+      },
+      {
+        "id": 6,
+        "question": "What is shown in the center of the sun on the flag?",
+        "options": ["Eagle", "Mountain", "Tündük (yurt crown)", "Snow leopard"],
+        "answerIndex": 2,
+        "explanation": "The tündük is the top opening of a traditional nomadic yurt."
+      },
+      {
+        "id": 7,
+        "question": "Which epic poem is a key part of Kyrgyz national identity?",
+        "options": ["Shahnameh", "Manas", "Dede Korkut", "Mahabharata"],
+        "answerIndex": 1,
+        "explanation": "The Epic of Manas is central to Kyrgyz culture and oral tradition."
+      },
+      {
+        "id": 8,
+        "question": "What was the capital’s Soviet-era name?",
+        "options": ["Tashkent", "Astana", "Frunze", "Semipalatinsk"],
+        "answerIndex": 2,
+        "explanation": "Bishkek was called Frunze during the USSR period."
+      },
+      {
+        "id": 9,
+        "question": "Which empire ruled parts of Central Asia in the 10th–12th centuries and influenced Kyrgyz lands?",
+        "options": ["Timurid Empire", "Karakhanid Khanate", "Ottoman Empire", "Samanids"],
+        "answerIndex": 1,
+        "explanation": "The Karakhanids were a major Turkic dynasty in the region."
+      },
+      {
+        "id": 10,
+        "question": "Kyrgyz lands came under the Russian Empire mainly in which century?",
+        "options": ["17th", "19th", "15th", "20th"],
+        "answerIndex": 1,
+        "explanation": "Most incorporation happened in the 1800s."
+      },
+      {
+        "id": 11,
+        "question": "The Kyrgyz Soviet Socialist Republic (Kyrgyz SSR) was established in:",
+        "options": ["1922", "1930", "1936", "1940"],
+        "answerIndex": 2,
+        "explanation": "It became a union republic of the USSR in 1936."
+      },
+      {
+        "id": 12,
+        "question": "What is Kyrgyzstan’s national currency?",
+        "options": ["Tenge", "Somoni", "Som", "Lira"],
+        "answerIndex": 2,
+        "explanation": "The som has been the currency since the early 1990s."
+      },
+      {
+        "id": 13,
+        "question": "Which city is one of the oldest in the country and a hub in the south?",
+        "options": ["Naryn", "Osh", "Talas", "Tokmok"],
+        "answerIndex": 1,
+        "explanation": "Osh is an ancient city on historic Silk Road routes."
+      },
+      {
+        "id": 14,
+        "question": "Which countries border Kyrgyzstan?",
+        "options": [
+          "Kazakhstan, Uzbekistan, Tajikistan, China",
+          "Russia, Mongolia, China, India",
+          "Iran, Afghanistan, Pakistan, India",
+          "Kazakhstan, Russia, China, Mongolia"
+        ],
+        "answerIndex": 0,
+        "explanation": "Kyrgyzstan borders Kazakhstan, Uzbekistan, Tajikistan, and China."
+      },
+      {
+        "id": 15,
+        "question": "A traditional Kyrgyz horseback game where riders fight over a goat carcass is called:",
+        "options": ["Er enish", "Kok-boru (Ulak tartysh)", "Kures", "Buzkashi"],
+        "answerIndex": 1,
+        "explanation": "Kok-boru is a famous nomadic sport, also known as buzkashi regionally."
+      },
+      {
+        "id": 16,
+        "question": "Which drink is a well-known traditional beverage in Kyrgyzstan?",
+        "options": ["Ayran", "Doogh", "Kymyz (fermented mare’s milk)", "Boza"],
+        "answerIndex": 2,
+        "explanation": "Kymyz is widely known in Kyrgyz nomadic culture."
+      },
+      {
+        "id": 17,
+        "question": "Which statement about Issyk-Kul is true?",
+        "options": [
+          "It is a salt desert",
+          "It is an endorheic (closed) lake with slight salinity",
+          "It is a man-made reservoir",
+          "It fully freezes every winter"
+        ],
+        "answerIndex": 1,
+        "explanation": "Issyk-Kul has no outlet and slightly saline water."
+      },
+      {
+        "id": 18,
+        "question": "Kyrgyz is the state language; what is the status of Russian?",
+        "options": ["No status", "Official language for interethnic communication", "Regional only", "Banned in schools"],
+        "answerIndex": 1,
+        "explanation": "Russian has official status for interethnic communication."
+      },
+      {
+        "id": 19,
+        "question": "The renaming from Frunze to Bishkek happened in:",
+        "options": ["1985", "1988", "1991", "1994"],
+        "answerIndex": 2,
+        "explanation": "The city returned to the name Bishkek in 1991."
+      },
+      {
+        "id": 20,
+        "question": "Which peak is among Kyrgyzstan’s highest?",
+        "options": ["Khan Tengri", "Jengish Chokusu (Victory Peak)", "Pobeda Peak", "Lenin Peak"],
+        "answerIndex": 1,
+        "explanation": "Jengish Chokusu (also called Pobeda/Victory Peak) is one of the highest."
+      }
+    ]
+  }
+  

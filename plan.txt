@@ -1,0 +1,235 @@
+2) Quiz Data (local JSON)
+2.1 Create your data folder & files
+
+ Create folder: src/quizzes/
+
+ Create file: src/quizzes/history-kg.json
+
+ (Optional) Create src/quizzes/general-science-01.json for a second quiz
+
+2.2 Define a consistent schema
+
+ Decide your schema fields: id, question, options[4], answerIndex, explanation?
+
+ Ensure exactly 20 questions
+
+ Check each answerIndex is 0–3
+
+ Avoid duplicate options unless intentional
+
+ Keep questions short (1–2 lines max), explanations 1–2 sentences
+
+2.3 Content QA pass
+
+ Balance difficulty (easy → medium → a few hard)
+
+ Mix question types (recall, concept, timeline)
+
+ Spell/grammar check
+
+ Make options similar in length to reduce bias
+
+ Save and commit (version control)
+
+3) Pages / Flow
+3.1 Home page (MVP)
+
+ Title (app name + short tagline)
+
+ Big Start Quiz button (center)
+
+ Subtitle: “20 questions • 20 minutes”
+
+ Confirm Home shows on app start
+
+3.2 Loading state
+
+ Add a very simple Loading… state while quiz data loads
+
+ Add an error state with “Retry” if loading fails
+
+3.3 Quiz screen structure
+
+ Top sticky bar: thin countdown bar (global 20 min)
+
+ Meta row: “Q x/20 • mm:ss remaining”
+
+ Question card: large, readable text
+
+ Options: four large, tappable buttons
+
+ Controls: Previous • Next (Submit only on Q20)
+
+ Ensure the layout is mobile-friendly (big touch targets)
+
+3.4 Results screen
+
+ Score summary: X/20 and percent
+
+ Short line: “Great job!” / “You can do better—try again!”
+
+ Button: Retake Quiz
+
+ Review list: for each question show:
+
+ Question
+
+ Your answer (mark wrong in red)
+
+ Correct answer (mark right in green)
+
+ Optional explanation
+
+4) Core Features
+4.1 Timer (global 20 minutes)
+
+ Start timer when first question appears
+
+ Show mm:ss in meta row
+
+ Show thin progress bar across top (from full → empty)
+
+ Warning nudges at 5:00 and 1:00 remaining (color shift or small toast)
+
+ On timeout → auto-submit: answered kept, blanks counted as 0
+
+4.2 Navigation & state
+
+ Current index: start at Q1
+
+ Previous/Next move between questions
+
+ Optional: Disable Next until an option is chosen
+
+ Keep selection editable until submit
+
+ Remember the current index on refresh (local persistence later)
+
+4.3 Answer selection
+
+ Single-select (one option at a time)
+
+ Clear selected visual (border/filled)
+
+ No “correct/incorrect” feedback until after submit
+
+4.4 Scoring & submit
+
+ On submit: compute +1 per correct, 0 per wrong/blank
+
+ Show total score + percentage
+
+ If unanswered exist, show confirm prompt:
+“You left N unanswered. Submit anyway?”
+
+4.5 Retake
+
+ Reset selections
+
+ Reset timer
+
+ Reshuffle options (if enabled)
+
+ Return to Q1
+
+4.6 Local persistence (refresh safety)
+
+ Save selections to localStorage (or similar) on change
+
+ Save currentQuestionIndex
+
+ Save remainingSeconds
+
+ On app load: if an in-progress quiz exists, offer to resume or start over
+
+5) Polish (small wins that matter)
+5.1 Option shuffling
+
+ Shuffle options once on quiz load
+
+ Keep the mapping stable for the duration of the attempt
+
+5.2 Timer color states
+
+ Default color (neutral)
+
+ Switch to amber at <= 5:00
+
+ Switch to red at <= 1:00
+
+5.3 Accessibility & keyboard
+
+ Keyboard: 1–4 selects options
+
+ Keyboard: Left/Right arrows for Previous/Next
+
+ Keyboard: Enter for Next/Submit
+
+ Focus states visible (don’t rely only on color)
+
+ Sufficient contrast for text and selected states
+
+5.4 Microcopy & feedback
+
+ Consistent labels (“Previous”, “Next”, “Submit”, “Retake”)
+
+ Empty states (if data fails): “Couldn’t load quiz. Retry.”
+
+ Confirmation text for submit with blanks
+
+5.5 Mobile checks
+
+ Sticky top bar stays visible while scrolling
+
+ Buttons are at least 44px height
+
+ No horizontal scrolling
+
+ Debounce clicks to prevent double-submit
+
+6) Manual Test Checklist (acceptance tests)
+6.1 Full pass
+
+ Start quiz → answer all → submit → correct score and review appear
+
+6.2 Unanswered flow
+
+ Leave 2–3 blanks → submit → see warning or allowed submit → score reflects blanks
+
+6.3 Refresh safety
+
+ Reach Q7 with some answers → refresh → come back at Q7 with answers + time intact
+
+6.4 Timeout behavior
+
+ Let timer hit 0:00 → auto-submit → see score & review
+
+6.5 Retake behavior
+
+ Press Retake → timer resets, selections cleared, options reshuffle
+
+6.6 Navigation & keyboard
+
+ Previous/Next work at edges (Q1/Q20) as expected
+
+ Keyboard shortcuts work (1–4, arrows, Enter)
+
+6.7 Mobile UX
+
+ Test on a phone-sized window (or real device) → all buttons easy to tap, layout stable
+
+7) (Optional) Multi-quiz ready
+
+ Add a small quiz list on Home (title, 20Q badge)
+
+ Selecting an item loads that quiz JSON
+
+ Keep the rest of the flow identical
+
+Pro tips while you work
+
+Keep a “Bugs & Tweaks” note: log tiny issues as you notice them; fix in batches.
+
+Timebox features: if a polish task takes >30 min now, defer it to after MVP.
+
+Commit often with meaningful messages (“feat: add results screen summary”, etc.).
