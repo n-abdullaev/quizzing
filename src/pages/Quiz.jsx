@@ -2,7 +2,7 @@ import React, { useState} from "react";
 import { useNavigate } from "react-router-dom";
 // import data from "../quizzes/history-kg.json";
 
-import data from "../quizzes/general-science.json";
+import data from "../quizzes/geography.json";
 
 export default function Quiz() {
   const [current, setCurrent] = useState(0);
