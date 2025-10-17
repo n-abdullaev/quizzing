@@ -1,0 +1,45 @@
+{
+    "id": "world-history-01",
+    "title": "World History",
+    "questions": [
+        { 
+            "id": 1, 
+            "question": "Who was the first President of the United States?", 
+            "options": ["Thomas Jefferson", "George Washington", "John Adams", "James Madison"], 
+            "answerIndex": 1, 
+            "explanation": "George Washington served from 1789–1797." 
+        },
+        { 
+            "id": 2, 
+            "question": "In which year did World War II end?",
+            "options": ["1939", "1942", "1945", "1947"], 
+            "answerIndex": 2, 
+            "explanation": "Germany surrendered in May 1945; Japan in August–September 1945." 
+        },
+        { 
+            "id": 3, 
+            "question": "Which ancient civilization built the pyramids of Giza?", 
+            "options": ["Romans", "Greeks", "Egyptians", "Persians"], 
+            "answerIndex": 2, 
+            "explanation": "Old Kingdom Egypt built the Giza pyramids." 
+        },
+        { "id": 4, "question": "Who led the Mongol Empire’s expansion?", "options": ["Kublai Khan", "Genghis Khan", "Tamerlane", "Batu Khan"], "answerIndex": 1, "explanation": "Genghis Khan founded and rapidly expanded the empire." },
+        { "id": 5, "question": "The Renaissance began in which region?", "options": ["France", "Italy", "England", "Germany"], "answerIndex": 1, "explanation": "It started in Italian city-states like Florence." },
+        { "id": 6, "question": "The Silk Road primarily connected China to which region?", "options": ["Australia", "Sub-Saharan Africa", "Europe", "South America"], "answerIndex": 2, "explanation": "It linked East Asia with the Mediterranean world." },
+        { "id": 7, "question": "Who wrote the Communist Manifesto with Karl Marx?", "options": ["Vladimir Lenin", "Friedrich Engels", "Leon Trotsky", "Mao Zedong"], "answerIndex": 1, "explanation": "Engels co-authored it in 1848." },
+        { "id": 8, "question": "Which empire used the road called the Royal Road?", "options": ["Roman", "Persian (Achaemenid)", "Ottoman", "Byzantine"], "answerIndex": 1, "explanation": "The Achaemenid Persians built it for rapid communication." },
+        { "id": 9, "question": "The Cold War was mainly between which two superpowers?", "options": ["USA & China", "USA & USSR", "UK & USSR", "France & China"], "answerIndex": 1, "explanation": "The US and Soviet Union competed geopolitically after WWII." },
+        { "id": 10, "question": "Who was the famous queen of ancient Egypt known for her alliances with Julius Caesar and Mark Antony?", "options": ["Hatshepsut", "Nefertiti", "Cleopatra VII", "Arsinoe II"], "answerIndex": 2, "explanation": "Cleopatra VII ruled Ptolemaic Egypt." },
+        { "id": 11, "question": "What event started in 1917 and led to the creation of the Soviet Union?", "options": ["Chinese Revolution", "Russian Revolution", "Cuban Revolution", "Iranian Revolution"], "answerIndex": 1, "explanation": "The Russian Revolution toppled the Tsarist regime." },
+        { "id": 12, "question": "Which city was divided by a wall from 1961 to 1989?", "options": ["Vienna", "Prague", "Berlin", "Budapest"], "answerIndex": 2, "explanation": "The Berlin Wall symbolized Cold War division." },
+        { "id": 13, "question": "Which explorer first circumnavigated the Earth (expedition)?", "options": ["Christopher Columbus", "Ferdinand Magellan’s crew", "James Cook", "Amerigo Vespucci"], "answerIndex": 1, "explanation": "Magellan died en route; his crew completed the voyage (1519–1522)." },
+        { "id": 14, "question": "Which empire built the Colosseum?", "options": ["Greek", "Egyptian", "Roman", "Assyrian"], "answerIndex": 2, "explanation": "The Colosseum is a hallmark of Imperial Rome." },
+        { "id": 15, "question": "Who was known as the Maid of Orléans?", "options": ["Joan of Arc", "Marie Antoinette", "Catherine de Medici", "Eleanor of Aquitaine"], "answerIndex": 0, "explanation": "Joan of Arc was a French heroine of the Hundred Years’ War." },
+        { "id": 16, "question": "Which document, signed in 1215, limited the power of the English king?", "options": ["Bill of Rights", "Magna Carta", "Petition of Right", "Act of Settlement"], "answerIndex": 1, "explanation": "Magna Carta checked royal authority under King John." },
+        { "id": 17, "question": "Which war was sparked by the 1914 assassination in Sarajevo?", "options": ["WWI", "WWII", "Crimean War", "Franco-Prussian War"], "answerIndex": 0, "explanation": "The assassination of Archduke Franz Ferdinand triggered WWI." },
+        { "id": 18, "question": "Which revolution began in 1789?", "options": ["American", "French", "Haitian", "Mexican"], "answerIndex": 1, "explanation": "The French Revolution overthrew the monarchy." },
+        { "id": 19, "question": "Who was the South African leader who helped end apartheid and became president in 1994?", "options": ["Nelson Mandela", "Desmond Tutu", "Thabo Mbeki", "F. W. de Klerk"], "answerIndex": 0, "explanation": "Mandela became South Africa’s first Black president." },
+        { "id": 20, "question": "Which civilization developed cuneiform writing?", "options": ["Egyptians", "Sumerians", "Hittites", "Phoenicians"], "answerIndex": 1, "explanation": "Sumerians of Mesopotamia used cuneiform script." }
+    ]
+}
+  
