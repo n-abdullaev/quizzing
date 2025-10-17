@@ -1,18 +1,50 @@
-import React, { useState} from "react";
-import { useNavigate } from "react-router-dom";
-// import data from "../quizzes/history-kg.json";
-
-import data from "../quizzes/geography.json";
+import React, { useEffect, useState} from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export default function Quiz() {
+
+  const { state } = useLocation();
+  const navigate = useNavigate();
+  const quizFile = state?.quiz;
+
+  const [data, setData] = useState(null);
   const [current, setCurrent] = useState(0);
-  const [selected, setSelected] = useState(Array(data.questions.length).fill(null));
+  const [selected, setSelected] = useState([]);
+
+  useEffect(() => {
+    if(!quizFile){
+      navigate('/');
+    }
+  }, [quizFile, navigate]);
+
+  useEffect(() => {
+    if(quizFile){
+      fetch(`/quizzes/${quizFile}`)
+      .then((res) => res.json())
+      .then((json) => {
+        setData(json);
+        setSelected(Array(json.questions.length).fill(null));
+      })
+      .catch((err) => console.err("Error loading quiz:", err));
+    }
+  }, [quizFile]);
+
+  if (!data) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p>Loading quiz...</p>
+      </div>
+    );
+  }
 
   const q = data.questions[current];
-
-  const navigate = useNavigate();
+  const isLast = current === data.questions.length - 1;
 
   const goNext = () => setCurrent((c) => c + 1);
+
+  const toHome = () => {
+    navigate("/");
+  }
 
   const handleSubmit = () => {
     const score = selected.reduce(
@@ -23,11 +55,6 @@ export default function Quiz() {
     navigate("/results", {state: {score, total:data.questions.length, selected, questions: data.questions}});
   }
 
-  const toHome = () => {
-    navigate("/");
-  }
-
-  const isLast = current === data.questions.length - 1;
 
   return (
     <>

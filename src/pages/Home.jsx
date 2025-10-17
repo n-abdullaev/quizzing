@@ -1,13 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import data from "../quizzes/history-kg.json";
 
 function Home() {
 
     const navigate = useNavigate();
 
     const startQuiz = () => {
-        navigate("/quiz")
+        navigate("/catalog")
     };
 
     return(
@@ -19,7 +18,6 @@ function Home() {
                         className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"> 
                         Start Quiz </button>
             </div>
-
         </>
     );
 }
