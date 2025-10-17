@@ -1,0 +1,35 @@
+{
+    "quizzes": [
+      {
+        "id": "world-history",
+        "title": "🌍 World History",
+        "description": "From ancient civilizations to modern revolutions — test your knowledge of world-changing events.",
+        "file": "world-history.json"
+      },
+      {
+        "id": "geography",
+        "title": "🗺️ Geography",
+        "description": "Countries, capitals, rivers, and mountains — explore the geography of our planet.",
+        "file": "geography.json"
+      },
+      {
+        "id": "technology",
+        "title": "💻 Technology",
+        "description": "Dive into the world of computers, software, and innovations that shape our digital age.",
+        "file": "technology.json"
+      },
+      {
+        "id": "kg-history",
+        "title": "Kyrgyzstan History",
+        "description": "12",
+        "file": "history-kg.json"
+      },
+      {
+        "id": "general science",
+        "title": "General Science",
+        "description": "nauka",
+        "file": "general-science.json"
+      }
+    ]
+  }
+  
