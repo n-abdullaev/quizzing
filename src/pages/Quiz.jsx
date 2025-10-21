@@ -83,7 +83,7 @@ export default function Quiz() {
                   : "bg-white text-gray-800"
               }`}
             >
-              {opt}
+              {opt} 
             </button>
           ))}
         </div>
