@@ -66,6 +66,8 @@ export default function Quiz() {
       </button>
 
       <div className="min-h-screen w-full flex flex-col items-center justify-center gap-6">
+        <h1 className="text-2xl font-semibold">{current + 1}/{data.questions.length}</h1>
+
         <h2 className="text-2xl font-semibold">{q.question}</h2>
 
         <div className="flex flex-col gap-3 w-full max-w-md">
