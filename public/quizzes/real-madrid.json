@@ -1,0 +1,146 @@
+{
+    "title": "Real Madrid Quiz",
+    "description": "Test your knowledge about the history, legends, and records of Real Madrid CF!",
+    "questions": [
+      {
+        "id": 1,
+        "question": "In which year was Real Madrid founded?",
+        "options": ["1899", "1902", "1905", "1910"],
+        "answerIndex": 1,
+        "explanation": "Real Madrid was founded on March 6, 1902."
+      },
+      {
+        "id": 2,
+        "question": "What is Real Madrid's home stadium?",
+        "options": ["Camp Nou", "Santiago Bernabéu", "Wanda Metropolitano", "Mestalla"],
+        "answerIndex": 1,
+        "explanation": "The Santiago Bernabéu Stadium is Real Madrid’s home ground since 1947."
+      },
+      {
+        "id": 3,
+        "question": "Who is Real Madrid’s all-time top goal scorer?",
+        "options": ["Raúl", "Cristiano Ronaldo", "Karim Benzema", "Alfredo Di Stéfano"],
+        "answerIndex": 1,
+        "explanation": "Cristiano Ronaldo scored 450 goals for Real Madrid between 2009–2018."
+      },
+      {
+        "id": 4,
+        "question": "What is Real Madrid’s traditional kit color?",
+        "options": ["Blue", "White", "Red", "Purple"],
+        "answerIndex": 1,
+        "explanation": "They are nicknamed 'Los Blancos' due to their all-white kit."
+      },
+      {
+        "id": 5,
+        "question": "How many UEFA Champions League titles has Real Madrid won as of 2025?",
+        "options": ["13", "14", "15", "16"],
+        "answerIndex": 2,
+        "explanation": "Real Madrid claimed their 15th Champions League in 2024."
+      },
+      {
+        "id": 6,
+        "question": "Who was Real Madrid’s first Ballon d’Or winner?",
+        "options": ["Alfredo Di Stéfano", "Ferenc Puskás", "Cristiano Ronaldo", "Raymond Kopa"],
+        "answerIndex": 0,
+        "explanation": "Alfredo Di Stéfano won the Ballon d’Or in 1957."
+      },
+      {
+        "id": 7,
+        "question": "Which Spanish club is Real Madrid’s biggest rival?",
+        "options": ["Atlético Madrid", "Sevilla FC", "FC Barcelona", "Valencia CF"],
+        "answerIndex": 2,
+        "explanation": "The rivalry between Real Madrid and FC Barcelona is known as El Clásico."
+      },
+      {
+        "id": 8,
+        "question": "Who was Real Madrid’s president who started the ‘Galácticos’ era?",
+        "options": ["Santiago Bernabéu", "Florentino Pérez", "Ramón Calderón", "Vicente Boluda"],
+        "answerIndex": 1,
+        "explanation": "Florentino Pérez launched the Galácticos project in 2000."
+      },
+      {
+        "id": 9,
+        "question": "Which player won the Ballon d’Or in 2018 while playing for Real Madrid?",
+        "options": ["Cristiano Ronaldo", "Sergio Ramos", "Luka Modrić", "Toni Kroos"],
+        "answerIndex": 2,
+        "explanation": "Luka Modrić won the Ballon d’Or after leading Croatia to the World Cup final."
+      },
+      {
+        "id": 10,
+        "question": "What is the nickname of Real Madrid supporters?",
+        "options": ["Culés", "Merengues", "Colchoneros", "Blaugrana"],
+        "answerIndex": 1,
+        "explanation": "Fans are called 'Los Merengues', referencing the white color like the dessert."
+      },
+      {
+        "id": 11,
+        "question": "Who was the coach when Real Madrid won 'La Décima' (10th UCL title)?",
+        "options": ["José Mourinho", "Zinedine Zidane", "Carlo Ancelotti", "Rafa Benítez"],
+        "answerIndex": 2,
+        "explanation": "Carlo Ancelotti guided Madrid to 'La Décima' in 2014."
+      },
+      {
+        "id": 12,
+        "question": "Who scored the dramatic equalizer in the 2014 Champions League final?",
+        "options": ["Gareth Bale", "Sergio Ramos", "Cristiano Ronaldo", "Ángel Di María"],
+        "answerIndex": 1,
+        "explanation": "Sergio Ramos equalized in stoppage time vs Atlético Madrid."
+      },
+      {
+        "id": 13,
+        "question": "Which player was NOT part of the early-2000s Galácticos era?",
+        "options": ["Zinedine Zidane", "Ronaldo Nazário", "David Beckham", "Karim Benzema"],
+        "answerIndex": 3,
+        "explanation": "Benzema joined in 2009, after the original Galácticos period."
+      },
+      {
+        "id": 14,
+        "question": "Which Real Madrid legend captained Spain at the 2010 World Cup?",
+        "options": ["Sergio Ramos", "Xabi Alonso", "Iker Casillas", "Fernando Hierro"],
+        "answerIndex": 2,
+        "explanation": "Goalkeeper Iker Casillas was Spain’s captain in 2010."
+      },
+      {
+        "id": 15,
+        "question": "In which year did Zinedine Zidane first become Real Madrid’s head coach?",
+        "options": ["2014", "2015", "2016", "2017"],
+        "answerIndex": 2,
+        "explanation": "Zidane took charge in January 2016 and won three straight UCLs."
+      },
+      {
+        "id": 16,
+        "question": "Who scored the winning goal in the 2022 Champions League Final vs Liverpool?",
+        "options": ["Benzema", "Vinícius Júnior", "Rodrygo", "Modrić"],
+        "answerIndex": 1,
+        "explanation": "Vinícius Júnior scored the decisive goal for Madrid in 2022."
+      },
+      {
+        "id": 17,
+        "question": "Which player inherited the number 7 shirt after Cristiano Ronaldo left?",
+        "options": ["Gareth Bale", "Eden Hazard", "Mariano Díaz", "Vinícius Júnior"],
+        "answerIndex": 1,
+        "explanation": "Eden Hazard took over the number 7 after Ronaldo’s departure."
+      },
+      {
+        "id": 18,
+        "question": "Who is Real Madrid’s current head coach as of 2025?",
+        "options": ["Carlo Ancelotti", "Xabi Alonso", "Zinedine Zidane", "Raúl"],
+        "answerIndex": 0,
+        "explanation": "Carlo Ancelotti remains the coach through 2025."
+      },
+      {
+        "id": 19,
+        "question": "Which club did Real Madrid defeat in the 2024 Champions League final?",
+        "options": ["Manchester City", "Liverpool", "PSG", "Borussia Dortmund"],
+        "answerIndex": 3,
+        "explanation": "Real Madrid defeated Borussia Dortmund 2-0 in 2024."
+      },
+      {
+        "id": 20,
+        "question": "Which midfielder became Real Madrid’s top scorer in the 2023/24 season?",
+        "options": ["Luka Modrić", "Jude Bellingham", "Rodrygo", "Valverde"],
+        "answerIndex": 1,
+        "explanation": "Jude Bellingham scored the most goals for Madrid in 2023/24."
+      }
+    ]
+  }

@@ -29,6 +29,12 @@
         "title": "General Science",
         "description": "nauka",
         "file": "general-science.json"
+      },
+      {
+        "title": "Real Madrid Quiz",
+        "file": "real-madrid.json",
+        "description": "Real Madrid",
+        "id": "real-madrid.json"
       }
     ]
   }
