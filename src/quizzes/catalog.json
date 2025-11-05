@@ -35,6 +35,12 @@
         "file": "real-madrid.json",
         "description": "Real Madrid",
         "id": "real-madrid.json"
+      },
+      {
+        "title": "Real Madrid — Advanced Knowledge",
+        "file": "real-madrid-advanced.json",
+        "description": "Real Madrid — Advanced",
+        "id": "real-madrid-advanced"
       }
     ]
   }

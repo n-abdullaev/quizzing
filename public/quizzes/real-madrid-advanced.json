@@ -1,0 +1,151 @@
+{
+    "title": "Real Madrid — Advanced Knowledge Quiz",
+    "description": "A challenging quiz for true Madridistas. Test your deep knowledge of Real Madrid's history, tactics, players, and achievements!",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which club did Real Madrid defeat to win their first European Cup in 1956?",
+        "options": ["Reims", "Milan", "Eintracht Frankfurt", "Benfica"],
+        "answerIndex": 0,
+        "explanation": "Real Madrid beat Stade de Reims 4–3 in the 1956 final in Paris."
+      },
+      {
+        "id": 2,
+        "question": "Under which manager did Real Madrid win their first La Liga title of the 21st century?",
+        "options": ["Vicente del Bosque", "Carlos Queiroz", "José Mourinho", "Manuel Pellegrini"],
+        "answerIndex": 0,
+        "explanation": "Vicente del Bosque led Real Madrid to the 2000–01 La Liga title."
+      },
+      {
+        "id": 3,
+        "question": "In what year did the Santiago Bernabéu Stadium open?",
+        "options": ["1920", "1947", "1955", "1960"],
+        "answerIndex": 1,
+        "explanation": "The Bernabéu opened on December 14, 1947."
+      },
+      {
+        "id": 4,
+        "question": "Which Real Madrid player scored a hat-trick in the 1960 European Cup Final?",
+        "options": ["Ferenc Puskás", "Di Stéfano", "Santillana", "Gento"],
+        "answerIndex": 0,
+        "explanation": "Puskás scored four goals in the 7–3 win over Eintracht Frankfurt."
+      },
+      {
+        "id": 5,
+        "question": "Which manager replaced Zinedine Zidane after his first departure in 2018?",
+        "options": ["Santiago Solari", "Julen Lopetegui", "Carlo Ancelotti", "Rafa Benítez"],
+        "answerIndex": 1,
+        "explanation": "Julen Lopetegui was appointed in 2018, just before the World Cup."
+      },
+      {
+        "id": 6,
+        "question": "Which Real Madrid goalkeeper won the FIFA Best Goalkeeper Award in 2018?",
+        "options": ["Thibaut Courtois", "Keylor Navas", "Iker Casillas", "Kiko Casilla"],
+        "answerIndex": 1,
+        "explanation": "Keylor Navas was named the best goalkeeper after the 2017–18 season."
+      },
+      {
+        "id": 7,
+        "question": "How many goals did Cristiano Ronaldo score in the 2013–14 Champions League season?",
+        "options": ["15", "16", "17", "18"],
+        "answerIndex": 2,
+        "explanation": "Ronaldo scored a record 17 goals that campaign."
+      },
+      {
+        "id": 8,
+        "question": "Which Real Madrid player has won the most Champions League titles with the club?",
+        "options": ["Cristiano Ronaldo", "Toni Kroos", "Paco Gento", "Sergio Ramos"],
+        "answerIndex": 2,
+        "explanation": "Paco Gento won 6 European Cups between 1956–1966."
+      },
+      {
+        "id": 9,
+        "question": "Which Real Madrid manager was dismissed after winning the Champions League?",
+        "options": ["Carlo Ancelotti", "Zidane", "Capello", "Del Bosque"],
+        "answerIndex": 3,
+        "explanation": "Vicente del Bosque was sacked after winning La Liga and the Champions League in 2003."
+      },
+      {
+        "id": 10,
+        "question": "Which Real Madrid player provided the assist for Bale’s bicycle kick goal in the 2018 UCL Final?",
+        "options": ["Marcelo", "Modrić", "Isco", "Kroos"],
+        "answerIndex": 0,
+        "explanation": "Marcelo crossed the ball that Bale converted with a spectacular bicycle kick."
+      },
+      {
+        "id": 11,
+        "question": "Who was Real Madrid’s top scorer during the 2007–08 La Liga title-winning season?",
+        "options": ["Van Nistelrooy", "Raúl", "Robinho", "Higuaín"],
+        "answerIndex": 0,
+        "explanation": "Ruud van Nistelrooy led with 16 goals despite injury struggles."
+      },
+      {
+        "id": 12,
+        "question": "Which Real Madrid player has captained both Real Madrid and his national team to major trophies?",
+        "options": ["Sergio Ramos", "Casillas", "Modrić", "Raúl"],
+        "answerIndex": 1,
+        "explanation": "Iker Casillas captained Spain to Euro 2008, World Cup 2010, and Euro 2012 victories."
+      },
+      {
+        "id": 13,
+        "question": "During José Mourinho’s tenure (2010–2013), Real Madrid set a La Liga record of how many points?",
+        "options": ["96", "97", "100", "102"],
+        "answerIndex": 2,
+        "explanation": "Madrid reached 100 points in the 2011–12 season, a then-record."
+      },
+      {
+        "id": 14,
+        "question": "Which player scored the decisive penalty in the 2016 Champions League Final?",
+        "options": ["Ramos", "Ronaldo", "Bale", "Lucas Vázquez"],
+        "answerIndex": 1,
+        "explanation": "Cristiano Ronaldo converted the winning penalty in the shootout vs Atlético Madrid."
+      },
+      {
+        "id": 15,
+        "question": "Who was the Real Madrid president before Florentino Pérez’s return in 2009?",
+        "options": ["Ramón Calderón", "Lorenzo Sanz", "Pedro Trapote", "Bernabé Fernández"],
+        "answerIndex": 0,
+        "explanation": "Ramón Calderón was president from 2006 to early 2009."
+      },
+      {
+        "id": 16,
+        "question": "Which Real Madrid player holds the record for most appearances in club history?",
+        "options": ["Raúl", "Casillas", "Sergio Ramos", "Karim Benzema"],
+        "answerIndex": 1,
+        "explanation": "Iker Casillas made over 725 appearances for the club."
+      },
+      {
+        "id": 17,
+        "question": "Which player joined Real Madrid in 2009 along with Cristiano Ronaldo and Benzema?",
+        "options": ["Xabi Alonso", "Di María", "Kaká", "Özil"],
+        "answerIndex": 2,
+        "explanation": "Kaká, Ronaldo, and Benzema all joined during the 2009 summer window."
+      },
+      {
+        "id": 18,
+        "question": "Which Real Madrid midfielder scored from a corner kick in a Champions League match?",
+        "options": ["Modrić", "Kroos", "Isco", "James Rodríguez"],
+        "answerIndex": 1,
+        "explanation": "Toni Kroos famously scored directly from a corner vs Valencia in the 2019 Supercopa."
+      },
+      {
+        "id": 19,
+        "question": "Real Madrid's ‘BBC’ trio consisted of which three players?",
+        "options": [
+          "Benzema, Bale, Cristiano",
+          "Beckham, Benzema, Casemiro",
+          "Bale, Benzema, Carvajal",
+          "Benzema, Bale, Coutinho"
+        ],
+        "answerIndex": 0,
+        "explanation": "BBC = Benzema, Bale, Cristiano Ronaldo — the lethal trio of the 2010s."
+      },
+      {
+        "id": 20,
+        "question": "Which player scored the fastest goal in Real Madrid’s Champions League history?",
+        "options": ["Bale", "Benzema", "Rodrygo", "Asensio"],
+        "answerIndex": 2,
+        "explanation": "Rodrygo scored after just 14 seconds vs Manchester City in 2020."
+      }
+    ]
+  }
