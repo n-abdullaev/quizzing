@@ -118,15 +118,15 @@
         "id": 17,
         "question": "Which player inherited the number 7 shirt after Cristiano Ronaldo left?",
         "options": ["Gareth Bale", "Eden Hazard", "Mariano Díaz", "Vinícius Júnior"],
-        "answerIndex": 1,
-        "explanation": "Eden Hazard took over the number 7 after Ronaldo’s departure."
+        "answerIndex": 2,
+        "explanation": "Mariano Díaz took over the number 7 after Ronaldo’s departure."
       },
       {
         "id": 18,
         "question": "Who is Real Madrid’s current head coach as of 2025?",
         "options": ["Carlo Ancelotti", "Xabi Alonso", "Zinedine Zidane", "Raúl"],
-        "answerIndex": 0,
-        "explanation": "Carlo Ancelotti remains the coach through 2025."
+        "answerIndex": 1,
+        "explanation": "Xabi Alonso became new coach in 2025."
       },
       {
         "id": 19,
