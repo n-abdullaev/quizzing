@@ -69,7 +69,7 @@ export default function Results() {
 
       <div className="mt-8 flex gap-3">
         <button
-          onClick={() => navigate("/quiz")}
+          onClick={() => navigate("/catalog")}
           className="px-4 py-2 bg-blue-600 text-white rounded"
         >
           Retake Quiz
